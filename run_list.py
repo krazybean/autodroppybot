@@ -21,6 +21,7 @@ def get_friendslist(file_name):
             fl.append(line.split(splitter)[1].strip('\n'))
     return fl
 
+
 friendslist = get_friendslist(file_name)
 
 with smart_run(session):
